@@ -8,10 +8,15 @@ html {
     background-color: rgb(179, 166, 166);
 }
 
+body {
+    /* font-family: 'Handlee', cursive; */
+    font-family: 'Cairo', sans-serif;
+}
+
 /* HERO IMAGE IS HERE */
 
 .hero-image {
-    background-image: linear-gradient(rgba(4, 9, 0, 0.1), rgba(4, 9, 0, 0.2)), url("JP-images/holdingflower.jpg");
+    background-image: linear-gradient(rgba(4, 9, 0, 0.2), rgba(4, 9, 0, 0.5)), url("JP-images/holdingflower.jpg");
     height: 100%;
     background-attachment: fixed;
     background-position: center;
