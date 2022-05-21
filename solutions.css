@@ -52,3 +52,120 @@ h1{
     color: rgb(60, 155, 187);
     font-size: 25px;
 }
+@media screen and (max-width:1200px){
+h1{
+    font-size: 85px;
+}
+.program img{
+    width: 30vw;
+}
+.program h2{
+    font-size: 55px;
+}
+.program p{
+    font-size: 35px;
+}
+.program h3{
+
+    font-size: 40px;
+}
+button{
+    width: 12rem;
+    height: 4vh;
+    font-size: 40px;
+}
+}
+@media screen and (max-width:850px){
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+h1{
+    font-size: 80px;
+}
+.program h2{
+    text-align: center;
+    font-size: 65px;
+}
+.program h3{
+    text-align: center;
+    font-size: 40px;
+}
+.program p{
+    text-align: center;
+    font-size: 30px;
+}
+button{
+    width: 10rem;
+    height: 6vw;
+    font-size: 30px;
+}
+}
+/* MID */
+@media screen and (max-width:500px){
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+h1{
+    font-size: 60px;
+}
+.program img{
+    width: 50vw;
+}
+.program h2{
+    font-size: 50px;
+}
+.program h3{
+    font-size: 30px;
+}
+.program p{
+    width: 90vw;
+    height: 50vh;
+    font-size: 20px;
+}
+button{
+    width: 30vw;
+    height: 6vh;
+}
+}
+/* MOBILE */
+@media screen and (max-width:380px){
+    body{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .banner{
+        height: 25vh;
+    }
+    h1{
+        font-size: 45px;
+    }
+    .program h2{
+        font-size: 40px;
+        margin: 20px;;
+
+        
+    }
+    .program h3{
+        font-size: 22px;
+        font-weight: 535;
+        text-align: center;
+    }
+    .program p{
+        font-size: 15px;
+        width: 95vw;
+        height: 50vh;
+        text-align: center;
+    }
+}
