@@ -27,7 +27,6 @@ section {
     font-size: 100px;
     padding: 20px;
     color: black;
-
 }
 
 .container {
@@ -39,10 +38,15 @@ section {
     /* border: 1px solid; */
     font-size: 20px;
     padding: 10px;
+    background-color: rgb(175, 151, 151);
+    color: #fff;
+    padding: 20px;
+    border: rgb(0, 0, 0) 5px solid;
 }
 
 h1 {
     text-align: center;
     padding: 20px;
     margin-right: 25%;
+}
 }
