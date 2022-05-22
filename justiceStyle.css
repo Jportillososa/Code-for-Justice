@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgb(179, 166, 166);
+}
+
+body {
+    /* font-family: 'Handlee', cursive; */
+    font-family: 'Cairo', sans-serif;
+}
+
+/* HERO IMAGE IS HERE */
+
+.hero-image {
+    background-image: linear-gradient(rgba(4, 9, 0, 0.2), rgba(4, 9, 0, 0.5)), url("JP-images/holdingflower.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color: black;
+    border-bottom: 5px solid #030303;
+}
+
+
+
+/*  NAVIGATION BAR STARTS HERE*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.9);
+    /* color: rgb(255, 157, 10); */
+    font-family: 'Handlee', cursive;
+    font-size: 1.2rem;
+}
+
+
+/* LINKS TO NAV */
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li {
+    list-style: none;
+
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: rgb(242, 247, 248);
+    padding: 1rem;
+    display: block;
+
+}
+
+.navbar-links li:hover {
+    background-color: rgb(53, 160, 197);
+}
+
+
+/*BUTTON THATS MOBILE RESPONSIVE  */
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    cursor: pointer;
+
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: rgb(148, 207, 255);
+    border-radius: 10px;
+
+}
+
+/*  @ MEDIA ALLOWS DISPLAY TO BE BETTER ACCESSIBLE FOR SMALLER SCREENS*/
+@media screen and (max-width: 800px) {
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links li {
+        text-align: center;
+    }
+
+    .navbar-links li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+}
+
+li {
+    list-style: none;
+}
+
+a:link {
+    text-decoration: none;
+
+    color: blanchedalmond;
+    /*REMOVES UNDERLINE DECORATION*/
+}
+
+a:visited {
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+header {
+    text-align: center
+}
+
+/* --------------FOOTER STARTS HERE--------------------*/
+
+
+
+
+
+footer {
+    position: static;
+    bottom: 0;
+
+}
+
+@media (max-height:800px) {
+    footer {
+        position: static;
+        bottom: 0;
+
+    }
+
+    header {
+        padding-top: 40px;
+    }
+
+    .videoHomePage {
+        width: 500px;
+        height: auto;
+    }
+
+}
+
+.footer-responsive {
+    background-color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    widows: 100%;
+    text-align: center;
+    font: bold 16px san-serif;
+    padding: 10px 10px 20px 10px;
+    margin-top: 80px;
+}
+
+.footer-responsive .footer-left,
+.footer-responsive .footer-center,
+.footer-responsive .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-responsive .footer-left {
+    width: 30%;
+}
+
+.footer-responsive h3 {
+    color: white;
+    font: normal 36px 'cookie', cursive;
+    margin: 0;
+}
+
+/* .footer-responsive h3 span{
+    color:
+} */
+.footer-responsive .footer-links {
+    color: white;
+    margin: 20px 0 12px;
+}
+
+.footer-responsive .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-responsive .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-responsive .footer-center {
+    width: 35%;
+    font-family: 'Cairo', sans-serif;
+
+}
+
+.address,
+.phone,
+.email {
+    background-color: rgb(113, 170, 188);
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+
+.address,
+.phone,
+.email {
+    height: 1.5rem;
+    width: 1.5rem;
+    font-size: 17px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.footer-responsive .footer-center p {
+    display: inline-block;
+    color: white;
+    vertical-align: middle;
+    margin: 0;
+}
+
+
+/* .footer-responsive .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+} */
+
+.footer-responsive .footer-right {
+    width: 30%;
+
+}
+
+.footer-responsive .footer-about {
+    line-height: 20px;
+    color: white;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+}
+
+.footer-responsive .footer-about span {
+    display: block;
+    color: #92999f;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-responsive .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-responsive .footer-icons a {
+    display: inline-block;
+    width: 37.5px;
+    height: 36.5px;
+    cursor: pointer;
+    background-color: #ffffff;
+    border: 2px solid white;
+    border-radius: 50%;
+    /* font-size: 20px; */
+    color: white;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+
+.footer-responsive .footer-icons a:hover {
+    background-color: steelblue;
+    border: 2px solid steelblue;
+
+}
+
+.footer-links a:hover {
+    color: steelblue;
+}
+
+@media(max-width:880px) {
+
+    .footer-responsive .footer-links,
+    .footer-responsive .footer-center,
+    .footer-responsive .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center
+    }
+
+    .address,
+    .phone,
+    .email {
+        margin-left: 0;
+    }
+
+}

@@ -1,3 +1,1 @@
 # Code-for-Justice
-
-Jorge
