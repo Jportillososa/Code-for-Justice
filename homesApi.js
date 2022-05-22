@@ -1,6 +1,5 @@
 const locationBtn = document.querySelector("#getLocation")
 
-
 function getLocation() {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(showPosition);
@@ -36,7 +35,7 @@ function initMap(position) {
   
     // Perform a nearby search.
     service.nearbySearch(
-      { location: location, radius: 5000, type: "real_estate_agency" },
+      { location: location, radius: 2500, type: "real_estate_agency" },
       (results, status, pagination) => {
         if (status !== "OK" || !results) return;
   
@@ -81,8 +80,5 @@ function initMap(position) {
         });
       }
     }
-  }
-  
-//   window.initMap = initMap;
-  
+  }  
     
