@@ -17,6 +17,7 @@ section {
     text-align: center;
     padding: 20px;
     position: relative;
+    
 }
 
 .title-image h1 {
@@ -39,6 +40,12 @@ section {
     /* border: 1px solid; */
     font-size: 20px;
     padding: 10px;
+    background-color: rgb(175, 151, 151);
+    color: #fff;
+    padding: 20px;
+    border: rgb(0, 0, 0) 5px solid;
+
+
 }
 
 h1 {
