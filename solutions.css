@@ -41,6 +41,7 @@ h1{
 }
 
 .program h3{
+    padding-bottom: 20px;
     font-size: 30px;
     font-style: italic;
     
@@ -54,8 +55,19 @@ h1{
 }
 
 .mini{
-    color: rgb(60, 155, 187);
+    font-weight: 900;
+    color: rgb(42, 119, 145);
     font-size: 25px;
+}
+.program button{
+    font-size: 25px;
+    width: 8vw;
+    height: 5vh;
+    border: solid 2px;
+    border-color: rgb(43, 116, 226);
+    border-radius: 15px;
+    background-color: rgb(225, 229, 0);
+
 }
 @media screen and (max-width:1200px){
 h1{
@@ -74,8 +86,8 @@ h1{
 
     font-size: 40px;
 }
-button{
-    width: 12rem;
+.program button{
+    width: 15vw;
     height: 4vh;
     font-size: 40px;
 }
@@ -101,7 +113,7 @@ h1{
     text-align: center;
     font-size: 30px;
 }
-button{
+.program button{
     width: 10rem;
     height: 6vw;
     font-size: 30px;
@@ -138,9 +150,9 @@ h1{
     height: 50vh;
     font-size: 20px;
 }
-button{
+.program button{
     width: 30vw;
-    height: 6vh;
+    height: 8vh;
 }
 }
 /* MOBILE */
@@ -172,5 +184,9 @@ button{
         width: 95vw;
         height: 50vh;
         text-align: center;
+    }
+    .program button{
+        font-size: 25px;
+        
     }
 }
