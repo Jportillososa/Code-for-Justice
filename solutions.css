@@ -1,4 +1,9 @@
 /* banner */
+body{
+    background-color: rgb(179, 166, 166);
+    font-family: 'Cairo', sans-serif;
+}
+
 .banner{
     background-image: url("img/bg1.webp");
     width:100%;
