@@ -17,7 +17,6 @@ section {
     text-align: center;
     padding: 20px;
     position: relative;
-    
 }
 
 .title-image h1 {
@@ -28,7 +27,6 @@ section {
     font-size: 100px;
     padding: 20px;
     color: black;
-    
 }
 
 .container {
@@ -44,8 +42,6 @@ section {
     color: #fff;
     padding: 20px;
     border: rgb(0, 0, 0) 5px solid;
-
-
 }
 
 h1 {
@@ -53,4 +49,4 @@ h1 {
     padding: 20px;
     margin-right: 25%;
 }
-
+}
