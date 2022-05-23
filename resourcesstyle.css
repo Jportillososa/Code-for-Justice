@@ -23,10 +23,10 @@ a {
 
 }
 
-img {
+/* img {
     width: 100%;
     filter: blur(1px);
-}
+} */
 
 .title-image h1 {
     border: 5px solid whitesmoke;
