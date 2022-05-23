@@ -101,9 +101,9 @@ li {
   cursor: pointer;
 }
 
-li:nth-child(odd) {
-  /* background-color: #fcfcfc; */
-}
+/* li:nth-child(odd) {
+  /* background-color: #fcfcfc; 
+}   */
 
 button {
   width: 100%;

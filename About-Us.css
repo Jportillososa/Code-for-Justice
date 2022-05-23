@@ -7,7 +7,11 @@
 
 img {
     width: 100%;
-    filter: blur(1px);
+
+}
+
+.headerIMG {
+    width: 100%;
 }
 
 .title-image h1 {
@@ -46,3 +50,53 @@ h1 {
     padding: 20px;
 }
 
+@media screen and (max-width:800px) {
+    .title-image h1 {
+        font-size: 2rem;
+        padding: 10px;
+        top: 30%;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .items {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    h1 {
+        padding: 10px;
+    }
+
+    /* img {
+        width: 300px;
+        height: 300px;
+    } */
+}
+
+@media screen and (max-width:400px) {
+    .title-image h1 {
+        font-size: 2rem;
+        padding: 10px;
+        top: 30%;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .items {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    h1 {
+        padding: 10px;
+    }
+
+
+}
