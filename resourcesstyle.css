@@ -29,7 +29,7 @@ a {
 } */
 
 .title-image h1 {
-    border: 5px solid whitesmoke;
+    border: 5px solid rgb(0, 0, 0);
     position: static;
     top: 40%;
     left: 35%;
@@ -55,6 +55,7 @@ a {
     color: #fff;
     padding: 20px;
     border: rgb(0, 0, 0) 5px solid;
+    border-radius: 30px;
 
 
 }
@@ -74,4 +75,42 @@ ul {
 ul li {
     list-style-type: circle;
     margin-left: 10px;
+}
+
+.item6 {
+    background-color: rgba(4, 9, 0, 0.0);
+    font-size: 30px;
+    text-align: center;
+}
+
+.item6 h2 a {
+    color: steelblue;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+
+
+
+@media screen and (max-width:800px) {
+    .title-image h1 {
+        font-size: 2rem;
+        padding: 10px;
+        top: 30%;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .items {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    h1 {
+        padding: 10px;
+    }
 }

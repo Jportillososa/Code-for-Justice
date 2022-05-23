@@ -5,7 +5,7 @@
 }
 
 html {
-    background-color: rgb(179, 166, 166);
+    background-color: rgb(178, 173, 173);
 }
 
 body {
@@ -13,7 +13,7 @@ body {
     font-family: 'Cairo', sans-serif;
 }
 
-/* HERO IMAGE IS HERE */
+/* HERO IMAGE/HERO TEXT IS HERE */
 
 .hero-image {
     background-image: linear-gradient(rgba(4, 9, 0, 0.2), rgba(4, 9, 0, 0.5)), url("JP-images/holdingflower.jpg");
@@ -25,8 +25,23 @@ body {
     position: relative;
     background-color: black;
     border-bottom: 5px solid #030303;
+
 }
 
+.mainH1 {
+    font-size: 300px;
+    position: static;
+    top: 10%;
+    color: white;
+    max-height: 80%;
+
+}
+
+.hero-image p {
+    color: white;
+    position: static;
+
+}
 
 
 /*  NAVIGATION BAR STARTS HERE*/
@@ -66,7 +81,7 @@ body {
 }
 
 
-/*BUTTON THATS MOBILE RESPONSIVE  */
+/*BUTTONS THAT ARE MOBILE RESPONSIVE  */
 .toggle-button {
     position: absolute;
     top: .75rem;
@@ -145,14 +160,36 @@ header {
     text-align: center
 }
 
-
+/* .......END OF NAV...... */
 
 /* RESPONSIVE VIDEO IS BELOW */
 
 
+.containerForVideo span {
+    color: rgb(0, 114, 152);
+}
+
+.header2 {
+    border: 5px solid whitesmoke;
+    position: static;
+    top: 40%;
+    left: 35%;
+    font-size: 2rem;
+    padding: 20px;
+    color: black;
+}
+
 .videoHomePage {
     width: 820;
     height: 640;
+}
+
+.textBelowVideo {
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-top: 10px;
+    font-size: 20px;
+    text-align: left;
 }
 
 @media screen and (max-width:800px) {
@@ -161,9 +198,54 @@ header {
         height: 340;
     }
 
+    .mainH1 {
+        font-size: 200px;
+        top: 50px;
+        /* color: rgba(1, 158, 255, 0.5) */
+        color: rgba(255, 255, 255, 0.7)
+    }
+
+    .textBelowVideo {
+        padding: 0;
+    }
+
 }
 
+@media screen and (min-height:200px) {
 
+
+    .mainH1 {
+        font-size: 50px;
+        top: 5%;
+        /* color: rgba(1, 158, 255, 0.5) */
+        color: rgba(255, 255, 255, 0.7)
+    }
+
+
+}
+
+@media screen and (min-height:400px) {
+
+
+    .mainH1 {
+        font-size: 200px;
+        top: 5%;
+        /* color: rgba(1, 158, 255, 0.5) */
+        color: rgba(255, 255, 255, 0.7)
+    }
+
+
+
+}
+
+/* END OF VIDEO SECTION */
+
+
+/* ........SECTION FOR API BEGINS HERE....... */
+
+.sectionForAPI {
+    background-color: steelblue;
+}
 
 
 
@@ -286,12 +368,7 @@ footer {
 }
 
 
-/* .footer-responsive .footer-center p span {
-    display: block;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 2;
-} */
+
 
 
 
