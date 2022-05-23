@@ -194,7 +194,7 @@ header {
 
 @media screen and (max-width:800px) {
     .videoHomePage {
-        width: 420;
+        width: 390;
         height: 340;
     }
 
@@ -224,11 +224,11 @@ header {
 
 }
 
-@media screen and (min-height:400px) {
+@media screen and (min-height:390px) {
 
 
     .mainH1 {
-        font-size: 200px;
+        font-size: 150px;
         top: 5%;
         /* color: rgba(1, 158, 255, 0.5) */
         color: rgba(255, 255, 255, 0.7)
@@ -268,9 +268,43 @@ header {
     padding: 20px;
     /* border: rgb(0, 0, 0) 5px solid; */
     /* border-radius: 30px; */
-    height: 600px;
+    height: 300px;
 
     /* remove border and add picture */
+}
+
+
+@media screen and (max-width:800px) {
+
+
+    .containerForTestimonials {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .testimonial1 h1 {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+
+}
+
+@media screen and (max-width:390px) {
+
+    .containerForTestimonials {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .testimonial1 h1 {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+
+
+
 }
 
 /* ........SECTION FOR API BEGINS HERE....... */
