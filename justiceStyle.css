@@ -273,6 +273,53 @@ header {
     /* remove border and add picture */
 }
 
+
+@media screen and (max-width:800px) {
+    .testimonial1 h1 {
+        font-size: 2rem;
+        padding: 10px;
+        top: 30%;
+    }
+
+    .containerForTestimonials {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .items {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    h1 {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .title-image h1 {
+        font-size: 2rem;
+        padding: 10px;
+        top: 30%;
+    }
+
+    .containerForTestimonials {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .items {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    h1 {
+        padding: 10px;
+    }
+
+
+}
+
 /* ........SECTION FOR API BEGINS HERE....... */
 
 .sectionForAPI {
