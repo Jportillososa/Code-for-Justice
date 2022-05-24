@@ -77,7 +77,8 @@ body {
 }
 
 .navbar-links li:hover {
-    background-color: rgb(53, 160, 197);
+    /* background-color: rgb(53, 160, 197); */
+    background-color: steelblue;
 }
 
 
@@ -190,6 +191,7 @@ header {
     padding-top: 10px;
     font-size: 20px;
     text-align: left;
+    color: black;
 }
 
 @media screen and (max-width:800px) {
@@ -244,16 +246,20 @@ header {
 .containerForTestimonials {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
+    gap: 50px;
     margin: 20px;
+    text-align: center;
 
+
+
+    /* width: 250px; */
 }
 
 .testimonial1 img,
 .testimonial2 img,
 .testimonial3 img {
     width: 250px;
-    height: 250px;
+    height: 350px;
 }
 
 .testimonial1,
@@ -265,14 +271,42 @@ header {
     /* background-color: rgb(0, 93, 170); */
     /* background-color: #3498db; */
     color: rgb(0, 0, 0);
-    padding: 20px;
+    /* padding-left: 20px; */
     /* border: rgb(0, 0, 0) 5px solid; */
     /* border-radius: 30px; */
-    height: 300px;
+    height: 700px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    transition: 0.3s;
 
     /* remove border and add picture */
 }
 
+.testimonial1 p,
+.testimonial2 p,
+.testimonial3 p {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    /* width: 250px; */
+    text-align: center;
+}
+
+@media screen and (max-width:919px) {
+
+
+    .containerForTestimonials {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .testimonial1 h1 {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+
+}
 
 @media screen and (max-width:800px) {
 
@@ -288,6 +322,19 @@ header {
     }
 
 
+}
+
+@media screen and (max-width:690px) {
+
+    .containerForTestimonials {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .testimonial1 h1 {
+        font-size: 20px;
+        padding: 10px;
+    }
 }
 
 @media screen and (max-width:390px) {
@@ -310,10 +357,27 @@ header {
 /* ........SECTION FOR API BEGINS HERE....... */
 
 .sectionForAPI {
-    background-color: #3498db;
+    /* background-color: #3498db; */
+    background-color: steelblue;
 }
 
 
+
+
+
+
+
+
+
+
+/* ........SECTION FOR SHELTERS............. */
+/* .shelterContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 20px;
+
+} */
 
 /* --------------FOOTER STARTS HERE--------------------*/
 
@@ -432,9 +496,6 @@ footer {
     vertical-align: middle;
     margin: 0;
 }
-
-
-
 
 
 
