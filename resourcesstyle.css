@@ -43,20 +43,22 @@ a {
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
-    margin: 10px;
+    gap: 50px;
+    margin: 50px;
 }
 
 .items {
 
     font-size: 20px;
     padding: 10px;
-    background-color: rgb(175, 151, 151);
+    background-color: steelblue;
     color: #fff;
     padding: 20px;
-    border: rgb(0, 0, 0) 5px solid;
-    border-radius: 30px;
+    /* border: rgb(0, 0, 0) 5px solid; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
 
+    color: rgb(0, 0, 0);
+    /* border-radius: 30px; */
 
 }
 
@@ -91,7 +93,67 @@ ul li {
 }
 
 
+button {
 
+    background: rgba(255, 255, 255, 0.2);
+    font-size: 1.8vw;
+    padding: 5px 0px;
+    border: .3vw;
+    border-style: solid;
+    border-color: steelblue;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width: 50%;
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(244, 166, 48);
+    ;
+    border: .3vw;
+    border-style: solid;
+    border-color: rgb(244, 166, 48, 0.6);
+    ;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+button:link {
+    text-decoration: none;
+    /*REMOVES UNDERLINE DECORATION*/
+}
+
+button:visited {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width:919px) {
+    .title-image h1 {
+        font-size: 2rem;
+        padding: 10px;
+        top: 30%;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .items {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    h1 {
+        padding: 10px;
+    }
+
+    /* img {
+        width: 300px;
+        height: 300px;
+    } */
+}
 
 @media screen and (max-width:800px) {
     .title-image h1 {
@@ -113,4 +175,52 @@ ul li {
     h1 {
         padding: 10px;
     }
+}
+
+@media screen and (max-width:690px) {
+    .title-image h1 {
+        font-size: 2rem;
+        padding: 10px;
+        top: 30%;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .items {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    h1 {
+        padding: 10px;
+    }
+
+
+}
+
+@media screen and (max-width:390px) {
+    .title-image h1 {
+        font-size: 2rem;
+        padding: 10px;
+        top: 30%;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .items {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    h1 {
+        padding: 10px;
+    }
+
+
 }
